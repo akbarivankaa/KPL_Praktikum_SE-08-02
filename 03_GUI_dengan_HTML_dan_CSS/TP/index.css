@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /* Menggunakan font Inconsolata sesuai soal */
+    font-family: 'Inconsolata', monospace;
+    margin: 0;
+    padding: 0;
+    /* Membuat layout berada di tengah layar */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    background-color: #ffffff;
+}
+
+.container {
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    text-align: left; /* Teks di dalam container tetap rata kiri agar rapi */
+}
+
+.kotak-input {
+    width: 100%; 
+    display: block;
+    resize: none;
+    padding: 10px;
+    font-family: 'Inconsolata', monospace;
+    border: 1px solid #ccc;
+}
+
+p > span {
+    color: coral;
+    font-weight: bold;
+}
+
+button {
+    font-family: 'Inconsolata', monospace;
+    cursor: pointer;
+    padding: 5px 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #999;
+    border-radius: 3px;
+}
