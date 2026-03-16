@@ -6,6 +6,9 @@ const lowercaseCountElement = document.getElementById("hk");
 const btnBesarkan = document.getElementById("huruf-besar");
 const btnKecilkan = document.getElementById("huruf-kecil");
 
+const buttonLightElement = document.getElementById("tombol-terang");
+const buttonDarkElement = document.getElementById("tombol-gelap");
+
 function updateCounters() {
     const text = editorElement.value;
     
@@ -18,20 +21,6 @@ function updateCounters() {
     uppercaseCountElement.textContent = uppercaseMatch ? uppercaseMatch.length : 0;
 }
 
-const opmat = {
-  tambah: (a, b) => a + b,
-  kurang: (a, b) => a - b,
-  kali: (a, b) => a * b,
-  bagi: (a, b) => a / b
-};
-
-const ot = opmat[tambah];
-
-// Hasilnya 3
-console.log(
-    ot(1, 2)
-);
-
 editorElement.addEventListener("input", updateCounters);
 
 btnBesarkan.addEventListener("click", () => {
@@ -42,4 +31,12 @@ btnBesarkan.addEventListener("click", () => {
 btnKecilkan.addEventListener("click", () => {
     editorElement.value = editorElement.value.toLowerCase();
     updateCounters(); 
+});
+
+buttonLightElement.addEventListener("click", () => {
+    document.documentElement.classList.remove("mode-gelap");
+});
+
+buttonDarkElement.addEventListener("click", () => {
+    document.documentElement.classList.add("mode-gelap");
 });

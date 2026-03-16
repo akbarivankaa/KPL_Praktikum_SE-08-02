@@ -11,6 +11,7 @@ body {
     align-items: center;
     min-height: 100vh; 
     background-color: #ffffff;
+    color: #000000;
 }
 
 .container {
@@ -34,7 +35,7 @@ p > span {
     font-weight: bold;
 }
 
-.button-group button {
+button {
     font-family: 'Inconsolata', monospace;
     cursor: pointer;
     padding: 5px 10px;
@@ -42,4 +43,25 @@ p > span {
     border: 1px solid #999;
     border-radius: 3px;
     margin-right: 5px;
+}
+
+.grup-tg {
+    margin-top: 15px;
+}
+
+.mode-gelap {
+    background-color: #171b25;
+    color: #ebecf7;
+}
+
+.mode-gelap .kotak-input {
+    background-color: #2e3443;
+    color: #ebecf7; 
+    border: 1px solid #4a5568;
+}
+
+.mode-gelap button {
+    background-color: #29ddcc;
+    border: none; 
+    color: #000000;
 }
