@@ -34,9 +34,9 @@ btnKecilkan.addEventListener("click", () => {
 });
 
 buttonLightElement.addEventListener("click", () => {
-    document.documentElement.classList.remove("mode-gelap");
+    document.body.classList.remove("mode-gelap");
 });
 
 buttonDarkElement.addEventListener("click", () => {
-    document.documentElement.classList.add("mode-gelap");
+    document.body.classList.add("mode-gelap");
 });
