@@ -10,7 +10,7 @@ Dosen Pengampu: Yudha Islami Sulistiya
 
 Asisten Praktikum: Adhiansyah Muhammad Pradana Farawowan, Hamid Khaeruman
 
-## Soal Diberikan dua kode yang sama-sama melakukan operasi pembagian. Pertama menggunakan asersi, kedua menggunakan eksepsi.
+## Soal
 
 Buatlah fungsi yang mengubah deretan angka bertipe string menjadi larik angka.![alt text](image.png)
 
