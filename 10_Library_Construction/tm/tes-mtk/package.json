@@ -1,0 +1,16 @@
+{
+  "name": "tes-mtk",
+  "version": "1.0.0",
+  "description": "tes pustaka matematika",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ivan",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "mtk-gampang": "file:../mtk-gampang"
+  }
+}

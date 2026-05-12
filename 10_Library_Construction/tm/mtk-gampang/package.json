@@ -1,0 +1,15 @@
+{
+  "name": "mtk-gampang",
+  "version": "1.0.0",
+  "description": "Pustaka matematika gampang",
+  "license": "ISC",
+  "author": "Ivan",
+  "type": "module",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
